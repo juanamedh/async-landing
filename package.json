@@ -1,0 +1,20 @@
+{
+  "name": "async-landing",
+  "version": "1.0.0",
+  "description": "I display my knowledge in JavaScript's asyncrhonism in a landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanamedh/async-landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanamedh/async-landing/issues"
+  },
+  "homepage": "https://github.com/juanamedh/async-landing#readme"
+}
