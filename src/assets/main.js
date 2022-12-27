@@ -33,8 +33,8 @@ async function fetchData(urlAPI) {
         </div>
       </div>
     `).slice(0,4).join('')}
-
 		`;
+    content.innerHTML = view;
 	}catch {
 
 	}
