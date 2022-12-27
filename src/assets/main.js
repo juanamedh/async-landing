@@ -35,7 +35,7 @@ async function fetchData(urlAPI) {
     `).slice(0,4).join('')}
 		`;
     content.innerHTML = view;
-	}catch {
-
+	}catch (error) {
+    console.log(error);
 	}
 })();
