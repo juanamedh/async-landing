@@ -8,7 +8,8 @@ const options = {
 	}
 };
 
-fetch('', options)
-	.then(response => response.json())
-	.then(response => console.log(response))
-	.catch(err => console.error(err));
+async function fetchData=(urlAPI) {
+	const response = await fetch(urlAPI, options);
+	const data = await response.json();
+	return data;
+}
