@@ -10,7 +10,7 @@ const options = {
 	}
 };
 
-async function fetchData=(urlAPI) {
+async function fetchData(urlAPI) {
 	const response = await fetch(urlAPI, options);
 	const data = await response.json();
 	return data;
